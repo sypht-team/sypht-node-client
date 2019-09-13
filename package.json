@@ -1,0 +1,22 @@
+{
+  "name": "sypht",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./example/main.js",
+  "directories": {
+    "example": "example",
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "axios": "^0.19.0",
+    "file-type": "^12.3.0",
+    "form-data": "^2.5.1",
+    "moment": "^2.24.0",
+    "read-chunk": "^3.2.0"
+  }
+}
