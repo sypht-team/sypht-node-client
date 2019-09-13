@@ -14,7 +14,11 @@ for an [account](https://www.sypht.com/signup/developer)
 * Node.js version 8+.
 
 ### Installation
-WIP
+
+```Bash
+npm install sypht-node-client
+```
+
 
 ### Usage
 Populate system environment variable with the credentials generated above:
