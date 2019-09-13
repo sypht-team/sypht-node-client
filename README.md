@@ -32,7 +32,7 @@ then invoke the client with a file of your choice:
 var sypht = require('sypht-node-client');
 
 async function main () {
-    var data = await sypht.fileUpload(['sypht.invoice', 'sypht.document'], fs.createReadStream('./sample_invoice.pdf'), 'sample_invoice.pdf');
+    var data = await sypht.fileUpload(['sypht.invoice', 'sypht.document'], './sample_invoice.pdf');
     data = await sypht.fetchResults(data['fileId']);
     console.log(JSON.stringify(data, null, 2));
 } 
