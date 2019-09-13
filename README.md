@@ -30,7 +30,7 @@ var sypht = new Sypht({
     clientId : arr[0],
     clientSecret : arr[1],
 });
-var data = await sypht.fileUpload([INVOICE, DOCUMENT], fs.createReadStream('./sample_invoice.pdf'), 'sample_invoice.pdf');
+var data = await sypht.fileUpload(['sypht.invoice', 'sypht.document'], fs.createReadStream('./sample_invoice.pdf'), 'sample_invoice.pdf');
 data = await sypht.fetchResults(data['fileId']);
 console.log(JSON.stringify(data, null, 2));
 ```
