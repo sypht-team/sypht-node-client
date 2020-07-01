@@ -25,6 +25,8 @@ Populate system environment variable with the credentials generated above:
 
 ```Bash
 SYPHT_API_KEY="$client_id:$client_secret"
+SYPHT_AUTH_ENDPOINT="https://auth.sypht.com/oauth2/token"
+# use https://login.sypht.com/oauth/token for legacy keys
 ```
 
 then invoke the client with a file of your choice:
