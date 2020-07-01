@@ -17,6 +17,7 @@
     "file-type": "^12.3.0",
     "form-data": "^2.5.1",
     "moment": "^2.24.0",
+    "querystring": "^0.2.0",
     "read-chunk": "^3.2.0"
   }
 }
