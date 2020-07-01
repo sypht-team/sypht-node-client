@@ -1,6 +1,6 @@
 {
   "name": "sypht-node-client",
-  "version": "0.10.3",
+  "version": "0.11.1",
   "description": "",
   "main": "./lib/client.js",
   "directories": {
