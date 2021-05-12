@@ -1,9 +1,7 @@
 var sypht = require('../../sypht-node-client');
 
-const GENERIC = 'sypht.generic', DOCUMENT =  'sypht.document', INVOICE =  'sypht.invoice',BILL = 'sypht.bill', BANK = 'sypht.bank';
-
 async function main () {
-    var data = await sypht.fileUpload(['sypht.invoice', 'sypht.document'], './sample_invoice.pdf');
+    var data = await sypht.fileUpload(['invoices'], '../sample_invoice.pdf');
     data = await sypht.fetchResults(data['fileId']);
     return JSON.stringify(data, null, 2);
 } 
